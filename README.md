@@ -16,3 +16,33 @@ The News API-Fetcher App is a simple yet functional desktop application built us
 - Clean string formatting and basic error handling
 
 This app is an ideal beginner-level project for those exploring API consumption, HTTP requests, and GUI programming in Python. It can also be extended with features like language filters, date range selection, or even voice input. Great stepping stone for anyone looking to dive into real-world API-based applications.
+
+📦 Dependencies & Libraries
+
+1. Standard Python Libraries
+
+These come pre-installed with Python:
+	•	tkinter – For creating the GUI (buttons, frames, labels, inputs, etc.)
+	•	datetime – For using the current date in API queries and timestamps
+	•	time – (Optional) For adding delays or sleep between actions
+	•	os – (Optional) For file path management and file checking
+
+2. Third-party Libraries
+
+You’ll need to install these manually using pip:
+	•	requests
+Purpose: To send HTTP GET requests to the NewsAPI and handle the responses
+
+Optional (for extended features):
+
+If you plan to add any enhancements like:
+	•	Custom fonts loading: Pillow, pyglet, or font management tools
+	•	Charting or visualization: matplotlib or plotly
+	•	Data saving in structured formats: pandas or csv
+
+…but for your current build, just these are enough:
+- tkinter
+- requests
+- datetime
+- time
+- os (optional)
